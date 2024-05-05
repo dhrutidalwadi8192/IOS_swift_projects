@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21H1123" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NavigationHistory" representedClassName="NavigationHistory" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" defaultDateTimeInterval="732153120" usesScalarValueType="NO"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="historyId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="humidity" optional="YES" attributeType="String"/>
+        <attribute name="interactionType" optional="YES" attributeType="String"/>
+        <attribute name="newsAuthor" optional="YES" attributeType="String"/>
+        <attribute name="newsDescription" optional="YES" attributeType="String"/>
+        <attribute name="newsSource" optional="YES" attributeType="String"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="temperature" optional="YES" attributeType="String"/>
+        <attribute name="to" optional="YES" attributeType="String"/>
+        <attribute name="totalDistance" optional="YES" attributeType="String"/>
+        <attribute name="travelMode" optional="YES" attributeType="String"/>
+        <attribute name="weatherDate" optional="YES" attributeType="String"/>
+        <attribute name="weatherTime" optional="YES" attributeType="String"/>
+        <attribute name="windSpeed" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserCurrentLocation" representedClassName="UserCurrentLocation" syncable="YES">
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
